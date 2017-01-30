@@ -15,7 +15,6 @@
             margin: 400px auto;
             background-color: #f5e8d7;
             text-align: center;
-            width: 700px;
         }
         p{
             text-align: justify;
@@ -32,7 +31,7 @@
         <input type="submit" name="submit" value="Найти"/>
     </form>
         <?php if (!empty($json)) {
-            echo "Json Строка <p>$json</p>";
+            echo "Json Строка <pre>$jso";
         }?>
 </div>
 
